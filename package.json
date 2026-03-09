@@ -1,0 +1,17 @@
+{
+  "name": "actual-budget-agent",
+  "version": "1.0.0",
+  "description": "An AI agent tool to manage your Actual Budget finances",
+  "type": "module",
+  "main": "agent/index.js",
+  "scripts": {
+    "start": "node agent/index.js",
+    "dev": "node --watch agent/index.js"
+  },
+  "dependencies": {
+    "@actual-app/api": "^25.3.0",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5",
+    "readline": "^1.3.0"
+  }
+}
